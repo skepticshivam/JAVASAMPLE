@@ -11,7 +11,6 @@ class RunnableDemo implements Runnable {
       try {
          for(int i = 4; i > 0; i--) {
             System.out.println("Thread: " + threadName + ", " + i);
-            // Let the thread sleep for a while.
             Thread.sleep(50);
          }
      } catch (InterruptedException e) {
@@ -40,5 +39,5 @@ public class TestThread {
       
       RunnableDemo R2 = new RunnableDemo( "Thread-2");
       R2.start();
-   }   
+   }  
 }
