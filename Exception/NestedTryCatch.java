@@ -24,7 +24,7 @@ class NestedTryCatch{
     }
     catch(ArithmeticException e3){
     	 System.out.println("Arithmetic Exception");
-         System.out.println("Inside parent try catch block");
+         System.out.println("Inside parent try catch block"):
     }
     catch(ArrayIndexOutOfBoundsException e4){
     	System.out.println("ArrayIndexOutOfBoundsException");
